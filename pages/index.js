@@ -2,11 +2,10 @@ import Head from "next/head";
 import { useLocalStorage } from 'primereact/hooks';
 import Header from "../src/components/Header";
 import {Image} from "react-bootstrap";
+import IntroBlock from "../src/components/IntroBlock";
 
 const Index = () => {
     const [theme, setTheme] = useLocalStorage('dark', 'theme');
-
-
     return (
         <div>
             <Head>
@@ -17,8 +16,7 @@ const Index = () => {
             <Header/>
 
             <br/> <br/> <br/>
-            <h1>Hello</h1>
-            <p>Coming soon...</p>
+            <IntroBlock/>
 
             <style jsx global>
                 {`
