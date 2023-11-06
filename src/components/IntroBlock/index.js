@@ -14,9 +14,7 @@ const IntroBlock = () => {
             </div>
 
             <div className={styles.bio}>
-                <div>
 
-                </div>
 
             </div>
         </div>
