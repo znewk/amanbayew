@@ -18,7 +18,6 @@ const IntroBlock = () => {
 
                 </div>
 
-                <Image/>
             </div>
         </div>
     )
