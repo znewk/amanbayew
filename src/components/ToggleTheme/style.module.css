@@ -1,0 +1,27 @@
+.button{
+    width: auto;
+    background-color: #fbd38d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.svg{
+    height: 16px;
+    width: 16px;
+}
+
+.starting-svg {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Стиль для скрытия SVG при активации */
+.hidden-svg {
+    opacity: 0;
+    pointer-events: none; /* Чтобы SVG не был интерактивным после скрытия */
+}
