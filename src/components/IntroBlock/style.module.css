@@ -22,6 +22,11 @@
 }
 
 
+.lightMessage{
+    background-color: #f5f0e8;
+    color: black;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
         padding: 30px 15%;
