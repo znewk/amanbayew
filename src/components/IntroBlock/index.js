@@ -25,8 +25,15 @@ const IntroBlock = () => {
             </div>
 
             <div className={styles.bio}>
-
-
+                <div className={styles.bioLeft}>
+                    <h1 className={styles.fio}>arlan amanbay</h1>
+                    <span className={styles.subFio}>
+                        мастер фронт-енд инженер ( разработка \ обучение )
+                    </span>
+                </div>
+                <div>
+                    <Image src={"/avatar2.jpeg"} className={styles.avatar}/>
+                </div>
             </div>
         </div>
     )
