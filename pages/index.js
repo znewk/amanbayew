@@ -25,7 +25,7 @@ const Index = () => {
                     transition: 0.3s ease;
                   }
                   body > * {
-                    color: ${theme == 'dark' ? 'white' : 'black'} !important;
+                    color: ${theme == 'dark' ? 'white' : '#1a202c'} !important;
                   }
                 `}
             </style>
