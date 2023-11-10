@@ -1,7 +1,6 @@
 .container {
-    width: 525px;
+    width: 475px;
     margin: 0 auto;
-    margin-top: 32px;
 }
 .gif{
     width: 50%;
@@ -87,10 +86,26 @@
     color: rgb(255, 99, 195);
     text-decoration: none;
 }
+.buttonBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+.button{
+    background-color: #319795;
+    line-height: 1.2;
+    padding: 10px 16px;
+    font-family: 'Inter Medium';
+    font-size: 16px;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .container {
         width: 100%;
-        padding: 30px 5%;
+        padding: 30px 10%;
         box-sizing: border-box
     }
     .bio{
@@ -105,7 +120,7 @@
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
-        padding: 30px 5%;
+        padding: 30px 10%;
         box-sizing: border-box
     }
     .bio{

@@ -15,7 +15,7 @@ const Index = () => {
 
             <Header/>
 
-            <br/> <br/>
+            <br/> <br/> <br/> <br/>
             <IntroBlock/>
 
             <style jsx global>
