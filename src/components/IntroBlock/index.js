@@ -89,7 +89,7 @@ const IntroBlock = () => {
                            <span className={styles.bioElementTitle}>преподавательская деательность в академии itstep</span>
                        </div>
                        <div className={styles.bioElement}>
-                           <span className={styles.bioElementDate}>2023 по сегодня</span>
+                           <span className={styles.bioElementDate}>2023</span>
                            <span className={styles.bioElementTitle}>работа в nitec</span>
                        </div>
                    </div>
