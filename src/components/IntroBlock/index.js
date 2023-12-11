@@ -47,8 +47,8 @@ const IntroBlock = () => {
 
                     <p className={styles.aboutDesc}>
                         я — фрилансер и полнофункциональный разработчик из астаны,
-                        с 11 лет с головой увлеченный в программирование. <br/> <br/>
-                        создаю сайты по международным стандартам, которые привлекают клиентов в ваш бизнес и увеличивают прибыль. <br/> <br/>
+                        {/*с 11 лет с головой увлеченный в программирование. <br/> <br/>*/}
+                        {/*создаю сайты по международным стандартам, которые привлекают клиентов в ваш бизнес и увеличивают прибыль. <br/> <br/>*/}
                         у меня есть талант ко всему, что касается запуска продуктов, от планирования
                         и проектирование вплоть до решения реальных проблем с помощью кода.
                         <br/>
@@ -60,9 +60,39 @@ const IntroBlock = () => {
                 </div>
 
                 <div className={styles.buttonBody}>
-                    <Link href={'/works'}>
-                        <button className={styles.button} style={{color: isDark() && 'black'}}>мое портфолио {'>'}</button>
+                    <Link href={'/works'} style={{textDecoration: 'none'}}>
+                        <button className={styles.button} style={{color: isDark() && 'black'}}>
+                            <span>мое портфолио</span>
+                            <svg style={{height: 18, marginLeft: 5}} viewBox="0 0 24 24" focusable="false" className="chakra-icon css-onkibi" aria-hidden="true"><path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                        </button>
                     </Link>
+                </div>
+
+                <div className={styles.about}>
+                    <h3 className={styles.containerTitle}>био</h3>
+
+                   <div className={styles.bioElements}>
+                       <div className={styles.bioElement}>
+                           <span className={styles.bioElementDate}>2003</span>
+                           <span className={styles.bioElementTitle}>родился в маленьком городке атбасаре, акмолинская область</span>
+                       </div>
+                       <div className={styles.bioElement}>
+                           <span className={styles.bioElementDate}>2021</span>
+                           <span className={styles.bioElementTitle}>работа в стартапе oilan.io</span>
+                       </div>
+                       <div className={styles.bioElement}>
+                           <span className={styles.bioElementDate}>2022</span>
+                           <span className={styles.bioElementTitle}>закончил "многопрофильный колледж" г. астаны</span>
+                       </div>
+                       <div className={styles.bioElement}>
+                           <span className={styles.bioElementDate}>2022</span>
+                           <span className={styles.bioElementTitle}>преподавательская деательность в академии itstep</span>
+                       </div>
+                       <div className={styles.bioElement}>
+                           <span className={styles.bioElementDate}>2023 по сегодня</span>
+                           <span className={styles.bioElementTitle}>работа в nitec</span>
+                       </div>
+                   </div>
                 </div>
             </motion.div>
         </div>

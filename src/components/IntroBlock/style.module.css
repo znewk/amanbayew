@@ -93,7 +93,7 @@
     margin: 16px 0;
 }
 .button{
-    background-color: #319795;
+    background-color: #81E6D9;
     line-height: 1.2;
     padding: 10px 16px;
     font-family: 'Inter Medium';
@@ -101,6 +101,20 @@
     border: none;
     border-radius: 0.375rem;
     cursor: pointer;
+    display: flex;
+    aligin-items: center;
+}
+
+.bioElements{
+    margin: 16px 0;
+}
+.bioElement{
+    margin-bottom: 5px;
+}
+
+.bioElementDate{
+    font-family: "Inter Bold";
+    margin-right: 16px;
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .container {
